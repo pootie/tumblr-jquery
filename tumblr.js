@@ -41,9 +41,9 @@
 	  			});
 	
 	    		// Apply Expander
-	    		if (postMaxDescriptionLength > -1) {
+	    		if ($.tumblr.postMaxDescriptionLength > -1) {
 					  $('div.expandable').expander({
-					    slicePoint:       postMaxDescriptionLength,  // default is 100
+					    slicePoint:       $.tumblr.postMaxDescriptionLength,  // default is 100
 					    expandText:         '[more]',
 					    userCollapseText: '[^]'
 					  });					    			
